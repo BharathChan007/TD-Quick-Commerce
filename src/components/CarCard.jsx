@@ -72,11 +72,8 @@ const CarCard = ({ car }) => {
 
                 <div className="car-footer">
                     <div className="car-pricing">
-                        <div className="price-label text-light text-sm">Starting from</div>
-                        <div className="price-value">{formatPrice(car.price)}</div>
-                        <div className="booking-amount text-sm">
-                            Booking: <span className="font-semibold">{formatPrice(car.bookingAmount)}</span>
-                        </div>
+                        <div className="price-label text-light text-sm">Test Drive Booking</div>
+                        <div className="price-value">{formatPrice(car.bookingAmount)}</div>
                     </div>
                     <button className="btn btn-primary view-details-btn" onClick={(e) => {
                         e.stopPropagation();
