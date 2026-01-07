@@ -36,7 +36,7 @@ const HomePage = () => {
             <div className="hero-section">
                 <div className="container">
                     <div className="hero-content">
-                        <h1 className="hero-title">Your dream car is closer than ever—browse premium car'0s and book a test drive in Minutes.</h1>
+                        <h1 className="hero-title">Your dream car is closer than ever—browse premium car's and book a Test Drive in Minutes.</h1>
                         <div className="location-indicator">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" strokeWidth="2" />
